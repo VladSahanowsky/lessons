@@ -1,0 +1,82 @@
+
+@import "fonts.css";
+*, ::before, ::after{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.amina{
+  max-width: 1280px;
+  background: #F2F8F6;
+  padding: 0 100px 0 0;
+}
+
+.head{
+  width: 1100px;
+  height: 57px;
+  position: absolute;
+  padding: 115px 180px 496px 689px;
+  font: 500 50px/58.59px 'Roboto', sans-serif;
+  filter: drop-shadow(0 4px  rgba(0, 0, 0, 0.25));
+}
+
+.box{
+  display: inline-block;
+}
+
+.text{
+  width: 1241px;
+  height: 230px;
+  position: absolute;
+  padding: 191px 39px 247px 691px;
+  font: 400 20px/28px 'Roboto', sans-serif;
+}
+
+.vector-one{
+  position: absolute;
+  padding: 444px 100px 197px 689px;
+  font: 500 20px/28px 'Roboto', sans-serif;
+}
+
+.vector-two{
+  position: absolute;
+  padding: 484px 123px 157px 689px;
+  font: 500 20px/28px 'Roboto', sans-serif;
+}
+
+button{
+  position: absolute;
+  margin: 553px 385px 57.33px 684px;
+}
+
+.button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    font: 500 20px/28px 'Roboto', sans-serif;
+    padding: 10px 24px;
+}
+
+.amina__box{
+  width: 446.67px;
+  height: 437.32px;
+  background: white;
+  margin:  67.28px 664.33px 163.4px 169px;
+}
+
+.rect{
+  max-width: 100%;
+  position: relative;
+  top: 48.06px;
+  left: 33.33px;
+}
+
+.f{
+  max-width: 100%;
+  position: absolute;
+  top: 18px;
+  left: 315px;
+}
