@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/fonts.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>ИНФО</title>
+</head>
+<body>
+  <form action="/action_page.php">
+    <div class="order">
+    <div class="container">
+      <h2 class="header">Оформить заказ</h2>
+        <span>
+          <label class="label" for="name">ФИО*</label><br>
+          <input class="filter"type="text" placeholder="Введите ваше ФИО" name="email" required>
+        </span>
+        <span>
+          <label class="label" for="telephone">Телефон*</label><br>
+          <input class="filter" type="tel" placeholder="Введите ваш номер телефона" name="email" required>
+        </span>
+        <span>
+          <label class="label" for="email">Email*</label>
+          <input class="filter" type="text" placeholder="Введите ваш email" name="email" required>
+        </span>
+        <span>
+          <label class="label" for="adress">Адрес*</label>
+          <input class="filter" type="adress" placeholder="Введите ваш адрес" name="email" required>
+        </span>
+        <span>
+          <p class="label">Примечание к заказу</p>
+          <textarea class="textar" rows="10" cols="76"></textarea><br>
+        </span>
+        <span>
+          <input class="button"  type="submit" value="Оформить заказ">
+        </span>
+    </div>
+    <div class="content">
+      <h2 class="headerr">Способ доставки</h2>
+      <div>
+        <label class="label">
+          <input type="radio" class="radio" name="circle">
+          <span class="fake"></span>
+          <span class="text">Склад РБ</span>
+        </label>
+        <p>Это самый удобный, бесплатный и быстрый способ получения заказа!</p>
+        <p>Адрес склада: г.Гродно, ул. Горького, 91</p>
+        <p>Отгрузка осуществляется по предварительной договоренности, телефон для связи +375 (15) 261 08 81</p>
+      </div>
+      <div>
+        <label class="label">
+          <input type="radio" class="radio" name="circle">
+          <span class="fake"></span>
+          <span class="text">Склад РФ</span>
+        </label>
+        <p>Это самый удобный, бесплатный и быстрый способ получения заказа!</p>
+        <p>Адрес склада: г. Подольск, ул. Вишневая, д.7, склад 11</p>
+        <p>Отгрузка осуществляется по предварительной договоренности, телефон для связи +7 919 045 55 88</p>
+      </div>
+      <div>
+        <label class="label">
+          <input type="radio" class="radio" name="circle">
+          <span class="fake"></span>
+          <span class="text">Доставка</span>
+        </label>
+        <p>Сроки доставки товара покупателю устанавливаются договором.
+          Если доставка товара произведена в установленные договором сроки,
+           но товар не был передан покупателю по его вине, повторная доставка
+           производится после повторной оплаты покупателем стоимости услуг по
+            доставке товара.</p>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
