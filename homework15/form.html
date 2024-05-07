@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet" type="text/css">
+<title>ИНФО</title>
+</head>
+<body>
+  <form class="form" name="form">
+    <div class="order">
+    <div class="container">
+      <p id="message" >Пожалуйста, заполните все поля формы!</p>
+        <label>
+          <span class="label" for="name">ФИО*</span>
+          <input class="filter" type="text" placeholder="Введите ваше имя" name="name" id="name">
+        </label>
+        <label>
+          <span class="label" for="telephone">Телефон*</span>
+          <input id="phone" class="filterr" type="tel" placeholder="Введите ваш номер телефона" name="phone" >
+        </label>
+        <label>
+         <input class="check" type="checkbox" name="box" id="checkbox">
+           Вы согласны с обработкой данных?
+         </label>
+        <span>
+          <input class="button"  type="submit"  value="Отправить форму">
+        </span>
+
+    </div>
+    </div>
+
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
