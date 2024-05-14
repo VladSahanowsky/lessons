@@ -1,0 +1,689 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+svg {
+  position: absolute;
+}
+
+.div--none {
+  width: 100%;
+  height: 65px;
+  display: none;
+}
+
+.wraper__img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 45px;
+  height: 21px;
+}
+
+.page--cont {
+  transform: translateY(0);
+}
+
+.page--container {
+
+  display: flex;
+  justify-content: center;
+}
+
+.page--container1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.page--container--top {
+  width: 100%;
+  max-width: 1160px;
+  height: 50px;
+}
+
+.page--container--bottom {
+  position: relative;
+  padding-right: 300px;
+  width: 100%;
+  max-width: 1160px;
+  height: 50px;
+  display: flex;
+}
+
+.nav--top {
+  padding-right: 20px;
+  padding-left: 210px;
+  width: 100%;
+  display: flex;
+}
+
+.nav--top__list {
+  padding-right: 80px;
+  padding-left: 28px;
+  margin-right: 175px;
+  width: 100%;
+  max-width: 500px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+
+.nav--top__elem {
+  font: 400 14px/1.2 'Hyundai', sans-serif;
+}
+
+.nav--top__elem:hover {
+  color: black;
+}
+
+.nav--top__link {
+  width: 275px;
+  height: 52px;
+  background-color: blue;
+  font: 400 14px/1.2 'Hyundai', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav--top__link a {
+  padding-left: 6px;
+  color: white;
+}
+
+.nav--bottom {
+  padding-left: 218px;
+  width: 100%;
+  display: flex;
+}
+
+.nav--bottom__svg {
+  width: 149px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 0;
+  height: 50px;
+}
+
+.nav--bottom__svg1 {
+  width: 0;
+  height: 0;
+}
+
+.nav--bottom__list {
+  width: 300px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: gray;
+}
+
+.nav--bottom__elem {
+  font: 400 16px/1.2 'Hyundai', sans-serif;
+}
+
+.nav--bottom__elem:hover {
+  color: black;
+}
+
+.nav--top__list {
+  list-style: none;
+}
+
+.nav--top__list li {
+  display: inline-block;
+}
+
+.nav--top__list ul {
+  display: none;
+  position: absolute;
+}
+
+.nav--top__list li:hover ul {
+  display: block;
+}
+
+.nav--top__list a {
+  text-decoration: none;
+  color: black;
+  padding-right: 15px;
+}
+
+.nav--top__list a:hover {
+  color: rgb(52, 114, 143);
+}
+
+ main {
+  padding: 100px 0 100px 0;
+}
+
+.main--title {
+  position: relative;
+  padding: 0 60px 0 60px;
+  background-image: url("../img/bread_logo.jpg");
+  height: 700px;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.breadcrumbs {
+  width: 100%;
+  max-width: 1160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.breadcrumbs__ul {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font: 400 14px/1.2 'Hyundai', sans-serif;
+}
+
+.breadcrumbs li {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.breadcrumbs__link{
+  text-decoration: none;
+  color: black;
+}
+
+.breadcrumbs__link::after {
+  padding-left: 10px;
+  content: ">";
+  text-decoration: none;
+}
+
+.sharing {
+  display: flex;
+  align-items: center;
+}
+
+.sharing img {
+  padding-right: 6px;
+  width: 17px;
+  height: 14px;
+}
+
+.sharing a {
+  color: black;
+}
+
+
+.main--title__flex {
+  width: 100%;
+  max-width: 650px;
+  padding: 100px 0 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button--flex {
+  padding: 40px 0 40px 0;
+  width: 100%;
+  max-width: 1120px;
+  display: flex;
+  justify-content: center;
+}
+
+.main--title__flex img{
+  max-width: 1800px;
+  padding: 0 0 0 30px;
+  position: absolute;
+  top: 143px;
+  width: 90vw;
+}
+
+.main--title__flex h1 {
+  position: absolute;
+  top: 150px;
+  left: 20%;
+  color: white;
+  font: 500 58px/1.2 'Hyundai', sans-serif;
+}
+.main--title__flex  p {
+  font-size: 18px;
+}
+
+.main--flex{
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.main--flexrow{
+  margin: 0 auto;
+  padding: 0 0 0 20px;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+}
+
+.main--flexrow__elem{
+  max-width: 500px;
+}
+
+.main--flexrow__elemimg{
+  max-width: 500px;
+}
+
+.main--flexrow__elem b {
+  font: 400 30px/1.2 'Hyundai', sans-serif;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.main--flexrow__elem p {
+  font: 400 16px/1.2 'Hyundai', sans-serif;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main--flexrow__elemimg img {
+  position: relative;
+  top: 0;
+  left: 40px;
+  max-width: 700px;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.main--flex__button {
+  width: 230px;
+  height: 45px;
+  font: 400 18px/1.2 'Hyundai', sans-serif;
+  padding: 10px 12px 10px 12px;
+  background-color: rgb(30, 30, 95);
+  color: white;
+}
+
+.footer {
+  padding: 58px 0 58px 0;
+  width: 100%;
+  background-color: rgb(24, 22, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer--content {
+  padding: 0 20px 0 120px;
+  position: relative;
+
+  width: 100%;
+  max-width: 1160px;
+}
+
+.footer--content--flex {
+  width: 100%;
+  display: flex;
+}
+
+.footer--content__logo {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.footer--content--ulflex {
+  margin: 0 10px 15px 0;
+  padding-right: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+
+.footer--content--ulflex__link {
+  font: 400 14px/1.2 'Hyundai', sans-serif;
+  color: rgb(178, 188, 196);
+}
+
+.footer--sotials {
+  margin-bottom: 15px;
+  width: 301px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer--sotials__img {
+  margin: 0 0 0 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.footer__info {
+  max-width: 1020px;
+  display: flex;
+}
+
+.footer--infoflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+
+.footer--infoflexcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer--infoflexcol span {
+  font: 400 12px/1.2 'Hyundai', sans-serif;
+}
+
+.footer--infoflexcol__link {
+  display: flex;
+  font: 400 12px/1.2 'Hyundai', sans-serif;
+  color: rgb(94, 91, 87);
+}
+
+.menu-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 50%;
+  flex-direction: column;
+  color: rgb(19, 17, 17);
+}
+
+.div--wrapper {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: rgb(224, 207, 207);
+  transition: 0.5s;
+  transform: translateX(100%);
+}
+
+.menu_active {
+  transform: translateX(0);
+}
+
+.menu-list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid blanchedalmond;
+}
+
+.menu-btn {
+  width: 0;
+  height: 0;
+  background-color: rgb(93, 107, 126);
+  border: 2px solid black;
+  position: absolute;
+  top: 4px;
+  left: -30px;
+}
+
+.menu-btn_active {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(93, 107, 126);
+  position: absolute;
+  border: 2px solid rgb(3, 3, 3);
+}
+
+.main--title {
+  transition: 0.5s;
+}
+
+.main--title_active {
+  transform: translateX(-100%);
+}
+
+.page--content {
+  transition: 0.5s;
+}
+
+.page--content_active {
+  transform: translateX(-100%);
+}
+
+.footer {
+  transition: 0.5s;
+}
+
+.footer_active {
+  transform: translateX(-100%);
+}
+
+@media(max-width:1200px) {
+  .nav--top {
+    padding-left: 110px;
+  }
+
+  .nav--bottom {
+    padding-left: 118px;
+  }
+
+  .nav--bottom__svg1 {
+    width: 45px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+
+  .nav--bottom__svg {
+    display: none;
+  }
+
+
+  .nav--top__link {
+    width: 215px;
+    height: 48px;
+    background-color: blue;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
+
+@media(max-width:1040px) {
+  .footer--content--flex {
+    display: block;
+  }
+
+  .footer--sotials {
+    justify-content: flex-start;
+  }
+}
+
+@media(max-width:1000px) {
+  .nav--top__link {
+  width: 155px;
+  height: 37px;
+  background-color: blue;
+  font: 400 10px/1.2 'Hyundai', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .div--none {
+    display: block;
+  }
+
+  .div--wrapper {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: 111;
+    display: flex;
+    justify-content: center;
+  }
+
+  .page--cont {
+    display: none;
+  }
+
+  .breadcrumbs{
+    display: none;
+  }
+
+  .menu-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .main--flexrow{
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+  }
+
+  .main--flexrow__elem{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+  }
+
+  .main--flexrow__elemimg img{
+    width: 120%;
+    left: 0;
+    order: 1;
+    /* width: 70vw; */
+  }
+
+  .main--flex{
+    padding: 0 60px 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .main--flexrow__elem b {
+    font-size: 22px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+  .main--flex__button {
+    width: 170px;
+    height: 35px;
+    font-size: 14px;
+    padding: 8 10px 8px 10px;
+    background-color: rgb(30, 30, 95);
+    color: white;
+  }
+
+}
+
+@media(max-width: 767px) {
+
+
+  .breadcrumbs {
+    display: none;
+  }
+
+  .footer--content {
+    padding: 0 20px 0 20px;
+    position: relative;
+    width: 100%;
+    max-width: 1160px;
+  }
+
+  .footer--content--ulflex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .footer--sotials {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer--content__logo {
+    position: absolute;
+    top: 68%;
+    left: 44%;
+  }
+
+  .footer--infoflex {
+    padding-top: 60px;
+  }
+
+  .footer {
+    padding: 90px 0 90px 0;
+  }
+
+  .button--flex {
+    padding: 80px 0 80px 0;
+
+ }
+}
+
+@media(max-width: 600px) {
+  .footer--content__logo {
+    top: 53%;
+  }
+
+  .footer--infoflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+  }
+
+  .footer--infoflexcol__link {
+    padding-top: 15px;
+  }
+}
